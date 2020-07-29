@@ -1,4 +1,4 @@
-.carousel-item img{max-width:1080px;margin-left:auto;margin-right: auto;object-fit:cover;}
+.carousel-item img{max-width:1080px;margin-left:auto;margin-right: auto;}
 .carousel-item a img{width:120px;margin-bottom: 5px;}
 .carousel-control-prev-icon{background-image: url('../../images/btn_pre.png');}
 .carousel-control-next-icon{background-image: url('../../images/btn_next.png');}
@@ -6,26 +6,46 @@
 .carousel-caption{color:#000;display: flex;justify-content: center;}
 p a{width:100%;height:100%;}
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
+.change-img1 {
+      content: url(../../images/institutional/1.png);
+    }
+@media screen and (max-width: 1080px) {
+    .change-img1 {
+      content: url(../../images/institutional/1.png);
+    }
 }
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+.change-img2 {
+      content: url(../../images/institutional/1.png);
+    }
+@media screen and (max-width: 1080px) {
+    .change-img2 {
+      content: url(../../images/institutional/1.png);
+    }
 }
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
+.change-img3 {
+      content: url(../../images/institutional/1.png);
+    }
+@media screen and (max-width: 1080px) {
+    .change-img3 {
+      content: url(../../images/institutional/1.png);
+    }
 }
+.change-img4 {
+      content: url(../../images/institutional/1.png);
+    }
+@media screen and (max-width: 1080px) {
+    .change-img4 {
+      content: url(../../images/institutional/1.png);
+    }
+}
+.change-img5 {
+      content: url(../../images/institutional/1.png);
+    }
+@media screen and (max-width: 1080px) {
+    .change-img5 {
+      content: url(../../images/institutional/1.png);
+    }
+}
+.change-img6 {
+      content: url(../../images/institutional/1.png);
+    }
